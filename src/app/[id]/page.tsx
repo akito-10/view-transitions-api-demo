@@ -16,6 +16,9 @@ export default function Detail({ params: { id } }: { params: { id: string } }) {
         alt={cardData?.title}
         width={400}
         height={400}
+        style={{
+          objectFit: "cover",
+        }}
       />
       <h1 className="font-bold text-xl mt-2">{cardData?.title}</h1>
       <p>{cardData?.content}</p>
