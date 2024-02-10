@@ -14,7 +14,7 @@ export const Card: FC<Props> = ({ id, image, title, content }) => {
   return (
     <ShadcnCard className="overflow-hidden">
       <Link href={`/${id}`}>
-        <div className="relative w-full h-40">
+        <div className="relative w-full h-56">
           <Image
             src={image}
             alt={`${title}`}
