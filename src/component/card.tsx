@@ -24,7 +24,7 @@ export const Card: FC<Props> = ({ id, image, title, content }) => {
             }}
           />
         </div>
-        <CardTitle className="px-6 pt-6">{title}</CardTitle>
+        <CardTitle className="px-6 pt-6 pb-2">{title}</CardTitle>
         <CardContent>{content}</CardContent>
       </TransitionLink>
     </ShadcnCard>
